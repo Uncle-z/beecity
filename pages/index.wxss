@@ -1,1 +1,11 @@
 /* pages/index.wxss */
+.banner{
+  background-color: #0067BF;
+}
+.weather{
+  background-color: #0067BF;
+  color: #fff;
+}
+.pro-item{
+  margin: 10px 0;
+}

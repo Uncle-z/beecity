@@ -5,7 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    active: 0,
+    text: "滚动信息测试滚动信息测试滚动信息测试滚动信息测试滚动信息测试滚动信息测试滚动信息测试",
+    speedValue: 30,
+    actions: [
+      {
+        name: '选项'
+      },
+      {
+        name: '选项'
+      },
+      {
+        name: '选项',
+        subname: '副文本',
+        openType: 'share'
+      }
+    ]
+  },
+  onChange(event) {
+    wx.showToast({
+      title: `点击标签 ${event.detail + 1}`,
+      icon: 'none'
+    });
+  },
+  onCheckTime(){
+    this.setData({ show: true });
+  },
+  onClose() {
+    this.setData({ show: false });
+  },
+  onSelect(event) {
+    console.log(event.detail);
   },
 
   /**
