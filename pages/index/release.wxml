@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view>
+  <view class="banner">信息发布</view>
+  <van-row custom-class="form">
+    <van-col span="6">发送人群:</van-col>
+    <van-col span="14">
+      <van-checkbox-group value="{{ result }}" bind:change="onChange">
+        <van-checkbox name="a">全部</van-checkbox>
+        <van-checkbox name="b">网格人员</van-checkbox>
+        <van-checkbox name="c">租户</van-checkbox>
+      </van-checkbox-group>
+    </van-col>
+    <van-col span="4">
+      <view>更多>></view>
+    </van-col>
+  </van-row>
+  <van-cell-group>
+    <van-field
+      value="{{ value }}"
+      label="发送标题"
+      placeholder="请输入发送标题"
+      border="{{ false }}"
+      bind:change="onEdit"
+    />
+  </van-cell-group>
+  <van-cell-group>
+    <van-field
+      value="{{ value }}"
+      label="文章链接"
+      placeholder="请输入文章链接"
+      border="{{ false }}"
+      bind:change="onEdit"
+    />
+  </van-cell-group>
+  <van-cell-group>
+    <van-field
+      value="{{ message }}"
+      label="发送内容"
+      type="textarea"
+      placeholder="请输入发送内容"
+      autosize
+      border="{{ false }}"
+    />
+  </van-cell-group>
+  <view class="field-label">上传照片/视频：</view>
+  <view>
+    <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" />
+  </view>
+  <view style="text-align:center"><van-button type="info">发送</van-button></view>
+</view>
