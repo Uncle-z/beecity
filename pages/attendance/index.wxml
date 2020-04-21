@@ -1,4 +1,38 @@
 <!--pages/attendance/index.wxml-->
 <view>
   <view class="banner">考勤统计</view>
+  <van-cell title="选择日期区间" value="{{ date }}" bind:click="onDisplay" />
+  <van-calendar
+    show="{{ show }}"
+    type="range"
+    bind:close="onClose"
+    bind:confirm="onConfirm"
+    min-date="{{ minDate }}"
+  />
+  <view class="table">
+    <view class="tr">
+      <view class="th th1">网格员</view>
+      <view class="th th2">所属网格</view>
+      <view class="th th3">打卡天数</view>
+      <view class="th th4">打卡次数</view>
+    </view>
+    <view class="tr" bindtap="goTo" data-url="detial">
+      <view class="td td1">王硕</view>
+      <view class="td td2">玉龙家园网格1</view>
+      <view class="td td3">1</view>
+      <view class="td td4">3</view>
+    </view>
+    <view class="tr" bindtap="goTo" data-url="detial">
+      <view class="td td1">王硕</view>
+      <view class="td td2">玉龙家园网格1</view>
+      <view class="td td3">1</view>
+      <view class="td td4">3</view>
+    </view>
+    <view class="tr" bindtap="goTo" data-url="detial">
+      <view class="td td1">王硕</view>
+      <view class="td td2">玉龙家园网格1</view>
+      <view class="td td3">1</view>
+      <view class="td td4">3</view>
+    </view>
+  </view>
 </view>

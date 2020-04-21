@@ -1,4 +1,4 @@
-// pages/attendance/index.js
+// pages/attendance/detial.js
 Page({
 
   /**
@@ -7,7 +7,7 @@ Page({
   data: {
     date: '',
     show: false,
-    minDate: new Date(2020,0,1).getTime(),
+    minDate: new Date(2020, 0, 1).getTime(),
   },
   onDisplay() {
     this.setData({ show: true });
@@ -26,13 +26,14 @@ Page({
       date: `${this.formatDate(start)} - ${this.formatDate(end)}`
     });
   },
-  goTo (e) {
+  goTo(e) {
     console.log(e)
     let detail = e.currentTarget.dataset.url
     wx.navigateTo({
       url: '/pages/attendance/' + detail,
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
