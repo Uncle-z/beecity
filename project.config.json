@@ -116,6 +116,13 @@
 					"id": -1,
 					"name": "pages/attendance/detial",
 					"pathName": "pages/attendance/detial",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/score/index",
+					"pathName": "pages/score/index",
 					"scene": null
 				}
 			]

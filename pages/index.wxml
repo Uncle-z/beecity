@@ -76,7 +76,7 @@
   <van-tabbar active="{{ active }}" bind:change="onChange">
     <van-tabbar-item icon="home-o">首页</van-tabbar-item>
     <van-tabbar-item name="mail" icon="search">通讯录</van-tabbar-item>
-    <van-tabbar-item icon="friends-o">积分排名</van-tabbar-item>
+    <van-tabbar-item name="score" icon="friends-o">积分排名</van-tabbar-item>
     <van-tabbar-item name="library" icon="setting-o">知识库</van-tabbar-item>
     <van-tabbar-item name="journal" icon="todo-list-o">工作日志</van-tabbar-item>
   </van-tabbar>

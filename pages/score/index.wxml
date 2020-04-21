@@ -1,0 +1,419 @@
+<view>
+  <view class="banner">积分排名</view>
+  <van-tabs type="card">
+    <van-tab title="街道排名">
+      <navigator url="/pages/score/street" class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </navigator> 
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">2</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">3</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">4</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">5</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">6</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="社区排名">
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道222</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">2</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">3</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">4</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">5</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">6</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="网格排名">
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道3333</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">2</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">3</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">4</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">5</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">6</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+        <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">1</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="name">振兴街道</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <view class="num">2220</view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+  </van-tabs>
+</view>

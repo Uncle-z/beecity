@@ -1,0 +1,5 @@
+<!--pages/news/detail.wxml-->
+<view>
+  <view class="title">消息中心标题</view>
+  <view class="content">消息中心内容</view>
+</view>

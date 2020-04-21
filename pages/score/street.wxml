@@ -1,0 +1,152 @@
+<view>
+  <view class="banner">积分排名</view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">玉龙街道</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">总积分：704</view>
+      </view>
+    </view>
+  </view>
+  <view class="title">社区积分：</view>
+  <navigator url="/pages/score/community" class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </navigator>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">2</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">3</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">4</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">5</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">6</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">振兴社区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">2220</view>
+      </view>
+    </view>
+  </view>
+</view>

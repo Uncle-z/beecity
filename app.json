@@ -10,7 +10,14 @@
     "pages/index/grid",
     "pages/news/index",
     "pages/attendance/index",
-    "pages/attendance/detial"
+    "pages/attendance/detial",
+    "pages/score/index",
+    "pages/score/street",
+    "pages/score/community",
+    "pages/score/grid",
+    "pages/news/handle-person",
+    "pages/news/handle-place",
+    "pages/news/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

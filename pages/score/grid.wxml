@@ -1,0 +1,147 @@
+<view>
+  <view class="banner">积分排名</view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">网格:玉龙家园网格一</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">总积分：704</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">处理事件积分：350</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">人口普查积分：354</view>
+      </view>
+    </view>
+  </view>
+  <view class="title">积分明细：</view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;border-bottom: 1px solid #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">上报事件</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 50px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">+1</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="time">2020-04-11 14:42:65</view>
+      </view>
+    </view>
+  </view>
+</view>

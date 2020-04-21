@@ -26,9 +26,15 @@ Page({
   onChange(event) {
     console.log(event)
     let urlname = event.detail
-    wx.navigateTo({
-      url: '/pages/index/' + urlname,
-    })
+    if (urlname == 'score'){
+      wx.navigateTo({
+        url: '/pages/' + urlname + '/index' ,
+      })
+    }else{
+      wx.navigateTo({
+        url: '/pages/index/' + urlname,
+      })
+    }
     // wx.showToast({
     //   title: `点击标签 ${event.detail + 1}`,
     //   icon: 'none'
