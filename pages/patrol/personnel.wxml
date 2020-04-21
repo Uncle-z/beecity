@@ -1,0 +1,101 @@
+<view>
+  <view class="banner">人员走访</view>
+  <van-tabs active="a">
+    <van-tab title="全部" name="a" info="10"></van-tab>
+    <van-tab title="待审核" name="b" info="3"></van-tab>
+    <van-tab title="已审核" name="c" info="7"></van-tab>
+  </van-tabs>
+  <van-search value="{{ value }}" placeholder="请输入网格员姓名或居民姓名、身份证号、联系电话" />
+  <van-dropdown-menu>
+    <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+    <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+    <van-dropdown-item value="{{ value3 }}" options="{{ option3 }}" />
+    <van-dropdown-item value="{{ value4 }}" options="{{ option4 }}" />
+  </van-dropdown-menu>
+  <view class="table-view" style="width: 640px;">
+    <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      <view class="table">
+        <view class="tr">
+          <view class="th">楼栋</view>
+          <view class="th">单元</view>
+          <view class="th">楼层</view>
+          <view class="th">房间号</view>
+          <view class="th">居住人员</view>
+          <view class="th">网格员</view>
+          <view class="th">上次巡防时间</view>
+          <view class="th">操作</view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">1</view>
+          <view class="td">1</view>
+          <view class="td">11</view>
+          <view class="td">101</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,85 @@
+<view>
+  <view class="banner">重点场所</view>
+  <van-tabs active="a">
+    <van-tab title="全部" name="a" info="10"></van-tab>
+    <van-tab title="待审核" name="b" info="3"></van-tab>
+    <van-tab title="已审核" name="c" info="7"></van-tab>
+  </van-tabs>
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+  <view class="table-view" style="width: 640px;">
+    <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      <view class="table">
+        <view class="tr">
+          <view class="th">所在小区</view>
+          <view class="th">场所号</view>
+          <view class="th">场所名称</view>
+          <view class="th">法人</view>
+          <view class="th">是否有人居住</view>
+          <view class="th">网格员</view>
+          <view class="th">上次巡防时间</view>
+          <view class="th">操作</view>
+        </view>
+        <view class="tr">
+          <view class="td">玉龙家园</view>
+          <view class="td">A01</view>
+          <view class="td">轻轻托班</view>
+          <view class="td">王峰</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">玉龙家园</view>
+          <view class="td">A01</view>
+          <view class="td">轻轻托班</view>
+          <view class="td">王峰</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">玉龙家园</view>
+          <view class="td">A01</view>
+          <view class="td">轻轻托班</view>
+          <view class="td">王峰</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">玉龙家园</view>
+          <view class="td">A01</view>
+          <view class="td">轻轻托班</view>
+          <view class="td">王峰</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">玉龙家园</view>
+          <view class="td">A01</view>
+          <view class="td">轻轻托班</view>
+          <view class="td">王峰</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr">
+          <view class="td">玉龙家园</view>
+          <view class="td">A01</view>
+          <view class="td">轻轻托班</view>
+          <view class="td">王峰</view>
+          <view class="td">否</view>
+          <view class="td">王硕</view>
+          <view class="td">2014-02-01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

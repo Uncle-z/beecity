@@ -1,0 +1,59 @@
+<view>
+  <view class="banner">巡查审核</view>
+  <van-grid gutter="{{ 10 }}" column-num="3">
+    <van-grid-item url="personnel" icon="photo-o" info="99+" text="网格实居人员" />
+    <van-grid-item url="" icon="photo-o" text="流动人员" info="99+"/>
+    <van-grid-item url="" icon="photo-o" text="公寓/公司登记" />
+    <van-grid-item url="" icon="photo-o" text="低保信息" info="99+"/>
+    <van-grid-item url="" icon="photo-o" text="老年信息" info="99+"/>
+    <van-grid-item url="place" icon="photo-o" text="重点场所" />
+    <van-grid-item url="shop" icon="photo-o" text="商厅信息" />
+  </van-grid>
+  <view class="ui-row" style="height: 40px;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">辖区基本情况</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 70px;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">30</view>
+        <view class="name">楼栋数</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">30</view>
+        <view class="name">户数</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">30</view>
+        <view class="name">空房数</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 70px;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">30</view>
+        <view class="name">公寓</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">30</view>
+        <view class="name">总人口</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="num">30</view>
+        <view class="name">流动人员</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -19,7 +19,11 @@
     "pages/news/handle-place",
     "pages/news/detail",
     "pages/enent/index",
-    "pages/enent/detail"
+    "pages/enent/detail",
+    "pages/patrol/index",
+    "pages/patrol/personnel",
+    "pages/patrol/shop",
+    "pages/patrol/place"
   ],
   "window": {
     "backgroundTextStyle": "light",
