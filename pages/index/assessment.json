@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "网格长手机端-考核管理",
+  "usingComponents": {
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-circle": "@vant/weapp/circle/index"
+  }
+}

@@ -19,7 +19,6 @@
       value="{{ value }}"
       label="发送标题"
       placeholder="请输入发送标题"
-      border="{{ false }}"
       bind:change="onEdit"
     />
   </van-cell-group>
@@ -28,7 +27,6 @@
       value="{{ value }}"
       label="文章链接"
       placeholder="请输入文章链接"
-      border="{{ false }}"
       bind:change="onEdit"
     />
   </van-cell-group>
@@ -39,7 +37,6 @@
       type="textarea"
       placeholder="请输入发送内容"
       autosize
-      border="{{ false }}"
     />
   </van-cell-group>
   <view class="field-label">上传照片/视频：</view>

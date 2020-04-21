@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "网格长手机端-通讯录",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-icon": "@vant/weapp/icon/index"
+  }
+}

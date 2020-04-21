@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "网格长手机端-辖区网格",
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  }
+}

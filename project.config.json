@@ -49,6 +49,10 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
@@ -56,6 +60,41 @@
 					"id": -1,
 					"name": "pages/index/release",
 					"pathName": "pages/index/release",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/journal",
+					"pathName": "pages/index/journal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/mail",
+					"pathName": "pages/index/mail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/library",
+					"pathName": "pages/index/library",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/assessment",
+					"pathName": "pages/index/assessment",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/grid",
+					"pathName": "pages/index/grid",
 					"scene": null
 				}
 			]

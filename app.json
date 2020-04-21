@@ -2,7 +2,12 @@
   "pages": [
     "pages/index",
     "pages/index/release",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/index/journal",
+    "pages/index/mail",
+    "pages/index/library",
+    "pages/index/assessment",
+    "pages/index/grid"
   ],
   "window": {
     "backgroundTextStyle": "light",

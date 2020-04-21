@@ -1,13 +1,9 @@
-// pages/index.js
+// pages/index/assessment.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-    active: 0,
-    text: "滚动信息测试滚动信息测试滚动信息测试滚动信息测试滚动信息测试滚动信息测试滚动信息测试",
-    speedValue: 30,
     show: false,
     actions: [
       {
@@ -20,38 +16,20 @@ Page({
         name: '总计',
         subname: '副文本'
       }
-    ]
+    ],
+    hasChecked: '一周之内'
   },
-  onChange(event) {
-    console.log(event)
-    let urlname = event.detail
-    wx.navigateTo({
-      url: '/pages/index/' + urlname,
-    })
-    // wx.showToast({
-    //   title: `点击标签 ${event.detail + 1}`,
-    //   icon: 'none'
-    // });
-  },
-  goTo(event){
-    console.log(event)
-    let urlname = event.currentTarget.dataset.url
-    wx.navigateTo({
-      url: '/pages/index/' + urlname,
-    })
-  },
-  onCheckTime(){
+  onCheckTime() {
     this.setData({ show: true });
   },
   onClose() {
     this.setData({ show: false });
   },
   onSelect(event) {
-    console.log(event.detail);
+    console.log(event)
     let times = event.detail.name;
-    this.setData({ hasChecked: times })
+    this.setData({ hasChecked: times})
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,63 @@
+<!--pages/index/journal.wxml-->
+<view>
+  <view class="banner">工作日志</view>
+  <van-tabs type="card">
+    <van-tab title="今日日志">
+      <view style="height:20px;"></view>
+      <van-cell-group>
+        <van-field
+          label="标题"
+          value="{{ value }}"
+          placeholder="请输入标题"
+          bind:change="onEdit"
+        />
+      </van-cell-group>
+      <van-cell-group>
+        <van-field
+          value="{{ message }}"
+          label="详细内容"
+          type="textarea"
+          placeholder="请输入详细内容"
+          autosize
+        />
+      </van-cell-group>
+      <view class="ui-row">
+        <view class="ui-col ui-col-align-center align-center valign-middle">
+          <view class="ui-col-content align-center valign-middle">
+            <van-button type="info">发送</van-button>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="历史日志">
+      <view style="height:20px;"></view>
+      <view class="table">
+        <view class="tr">
+          <view class="th th1">序号</view>
+          <view class="th th2">标题</view>
+          <view class="th th3">日期</view>
+        </view>
+        <view class="tr">
+          <view class="td td1">1</view>
+          <view class="td td2">测试标题</view>
+          <view class="td td3">2020-04-04</view>
+        </view>
+        <view class="tr">
+          <view class="td td1">1</view>
+          <view class="td td2">测试标题</view>
+          <view class="td td3">2020-04-04</view>
+        </view>
+        <view class="tr">
+          <view class="td td1">1</view>
+          <view class="td td2">测试标题</view>
+          <view class="td td3">2020-04-04</view>
+        </view>
+        <view class="tr">
+          <view class="td td1">1</view>
+          <view class="td td2">测试标题</view>
+          <view class="td td3">2020-04-04</view>
+        </view>
+      </view>
+    </van-tab>
+  </van-tabs>
+</view>

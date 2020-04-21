@@ -1,0 +1,39 @@
+<view>
+  <view class="banner">通讯录</view>
+  <van-search
+      value="{{ value }}"
+      label="单位名称"
+      placeholder="请输入搜索关键词"
+      use-action-slot
+      bind:change="onChange"
+      bind:search="onSearch"
+    >
+    <view slot="action" bind:tap="onClick">搜索</view>
+  </van-search>
+  <view class="table">
+    <view class="tr">
+      <view class="td td1"><van-icon name="manager" />玉龙街道办事处</view>
+      <view class="td td2">0476-0476-5892188</view>
+    </view>
+    <view class="tr">
+      <view class="td td1"><van-icon name="manager" />玉龙街道办事处</view>
+      <view class="td td2">0476-0476-5892188</view>
+    </view>
+    <view class="tr">
+      <view class="td td1"><van-icon name="manager" />玉龙街道办事处</view>
+      <view class="td td2">0476-0476-5892188</view>
+    </view>
+    <view class="tr">
+      <view class="td td1"><van-icon name="manager" />玉龙街道办事处</view>
+      <view class="td td2">0476-0476-5892188</view>
+    </view>
+    <view class="tr">
+      <view class="td td1"><van-icon name="manager" />玉龙街道办事处</view>
+      <view class="td td2">0476-0476-5892188</view>
+    </view>
+    <view class="tr">
+      <view class="td td1"><van-icon name="manager" />玉龙街道办事处</view>
+      <view class="td td2">0476-0476-5892188</view>
+    </view>
+  </view>
+</view>

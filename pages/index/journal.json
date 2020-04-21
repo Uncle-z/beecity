@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "网格长手机端-工作日志",
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-button": "@vant/weapp/button/index"
+  }
+}

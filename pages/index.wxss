@@ -1,6 +1,9 @@
 /* pages/index.wxss */
 .banner{
-  background-color: #0067BF;
+  height: 11rem;
+}
+.banner image{
+  display: block;
 }
 .weather{
   background-color: #0067BF;

@@ -1,0 +1,66 @@
+<!--pages/index/grid.wxml-->
+<view>
+  <view class="banner">辖区网格</view>
+  <van-cell-group>
+    <van-cell title="管辖区域" value="玉龙社区" />
+  </van-cell-group>
+  <view class="ui-row">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="th">所属小区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="th">网格</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="th">网格员</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 90px;border-bottom: 1px dashed #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">玉龙家园</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="item">玉龙网格一</view>
+        <view class="item">玉龙网格二</view>
+        <view class="item">玉龙网格三</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="item">王硕,高永</view>
+        <view class="item">王硕,高永</view>
+        <view class="item">王硕,高永</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 90px;border-bottom: 1px dashed #dcdcdc;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="name">阳光南花园</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="item">阳光南网格一</view>
+        <view class="item">阳光南网格一</view>
+        <view class="item">阳光南网格一</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <view class="item">王硕,高永</view>
+        <view class="item">王硕,高永</view>
+        <view class="item">王硕,高永</view>
+      </view>
+    </view>
+  </view>
+</view>

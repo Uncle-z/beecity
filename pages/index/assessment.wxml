@@ -1,0 +1,64 @@
+<!--pages/index/assessment.wxml-->
+<view>
+  <view class="title">任务完成统计</view>
+  <van-cell bind:click="onCheckTime" title="{{hasChecked}}" is-link arrow-direction="down" />
+  <van-action-sheet
+    show="{{ show }}"
+    actions="{{ actions }}"
+    bind:close="onClose"
+    bind:select="onSelect"
+    round="{{false}}"
+  />
+  <van-row>
+    <van-col span="8">
+      <van-circle value="{{ 30 }}" text="132" color="#EB6100" stroke-width="12" layer-color="#F2F2F2"/>
+      <view class="name">处理事件</view>
+    </van-col>
+    <van-col span="8">
+      <van-circle value="{{ 60 }}" text="178" color="#C49F68" stroke-width="12" layer-color="#F2F2F2"/>
+      <view class="name">人口巡查</view>
+    </van-col>
+    <van-col span="8">
+      <van-circle value="{{ 90 }}" text="66" color="#32B16C" stroke-width="12" layer-color="#F2F2F2"/>
+      <view class="name">场所巡查</view>
+    </van-col>
+  </van-row>
+  <view class="table">
+    <view class="tr">
+      <view class="th th1">网格</view>
+      <view class="th th2">处理事件</view>
+      <view class="th th3">人口更新</view>
+      <view class="th th3">场所更新</view>
+    </view>
+    <view class="tr">
+      <view class="td td1">玉龙网格一</view>
+      <view class="td td2">30</view>
+      <view class="td td3">30</view>
+      <view class="td td4">30</view>
+    </view>
+    <view class="tr">
+      <view class="td td1">玉龙网格一</view>
+      <view class="td td2">30</view>
+      <view class="td td3">30</view>
+      <view class="td td4">30</view>
+    </view>
+    <view class="tr">
+      <view class="td td1">玉龙网格一</view>
+      <view class="td td2">30</view>
+      <view class="td td3">30</view>
+      <view class="td td4">30</view>
+    </view>
+    <view class="tr">
+      <view class="td td1">玉龙网格一</view>
+      <view class="td td2">30</view>
+      <view class="td td3">30</view>
+      <view class="td td4">30</view>
+    </view>
+    <view class="tr">
+      <view class="td td1">玉龙网格一</view>
+      <view class="td td2">30</view>
+      <view class="td td3">30</view>
+      <view class="td td4">30</view>
+    </view>
+  </view>
+</view>
