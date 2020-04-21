@@ -20,7 +20,8 @@ Page({
         name: '总计',
         subname: '副文本'
       }
-    ]
+    ],
+    hasChecked: '一周之内'
   },
   onChange(event) {
     console.log(event)

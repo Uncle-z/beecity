@@ -1,0 +1,112 @@
+<!--pages/news/index.wxml-->
+<view>
+  <view class="banner">消息中心</view>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+    <van-tab title="通知" info="3">
+      <view class="table">
+        <view class="tr">
+          <view class="td">关于第6次人口普查的通知</view>
+          <view class="td">2020-04-09 14:49：22</view>
+        </view>
+        <view class="tr">
+          <view class="td">关于第6次人口普查的通知</view>
+          <view class="td">2020-04-09 14:49：22</view>
+        </view>
+        <view class="tr">
+          <view class="td">关于第6次人口普查的通知</view>
+          <view class="td">2020-04-09 14:49：22</view>
+        </view>
+        <view class="tr">
+          <view class="td">关于第6次人口普查的通知</view>
+          <view class="td">2020-04-09 14:49：22</view>
+        </view>
+        <view class="tr">
+          <view class="td">关于第6次人口普查的通知</view>
+          <view class="td">2020-04-09 14:49：22</view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="巡查任务" info="4">
+      <view class="ui-row" style="height: 80px;border-bottom: 1px dashed #dcdcdc;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">小区物业消防（安全）巡查</view>
+            <view class="name">到期时间：04-10 19:50:00</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-right align-right valign-middle" style="padding-right: 15px;">
+          <view class="ui-col-content align-right valign-middle">
+            <view class="time">04-09 19:50:00</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 80px;border-bottom: 1px dashed #dcdcdc;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">小区物业消防（安全）巡查</view>
+            <view class="name">到期时间：04-10 19:50:00</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-right align-right valign-middle" style="padding-right: 15px;">
+          <view class="ui-col-content align-right valign-middle">
+            <view class="time">04-09 19:50:00</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 80px;border-bottom: 1px dashed #dcdcdc;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">小区物业消防（安全）巡查</view>
+            <view class="name">到期时间：04-10 19:50:00</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-right align-right valign-middle" style="padding-right: 15px;">
+          <view class="ui-col-content align-right valign-middle">
+            <view class="time">04-09 19:50:00</view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="信息采集">
+      <view class="ui-row" style="height: 80px;border-bottom: 1px dashed #dcdcdc;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">出租户普查<span class="state doing">60%</span></view>
+            <view class="name">到期时间：04-10 19:50:00</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-right align-right valign-middle" style="padding-right: 15px;">
+          <view class="ui-col-content align-right valign-middle">
+            <view class="time">04-09 19:50:00</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 80px;border-bottom: 1px dashed #dcdcdc;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">出租户普查<span class="state doing">60%</span></view>
+            <view class="name">到期时间：04-10 19:50:00</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-right align-right valign-middle" style="padding-right: 15px;">
+          <view class="ui-col-content align-right valign-middle">
+            <view class="time">04-09 19:50:00</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 80px;border-bottom: 1px dashed #dcdcdc;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">出租户普查<span class="state done">完成</span></view>
+            <view class="name">到期时间：04-10 19:50:00</view>
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-right align-right valign-middle" style="padding-right: 15px;">
+          <view class="ui-col-content align-right valign-middle">
+            <view class="time">04-09 19:50:00</view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+  </van-tabs>
+</view>

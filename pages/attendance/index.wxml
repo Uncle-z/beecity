@@ -1,0 +1,4 @@
+<!--pages/attendance/index.wxml-->
+<view>
+  <view class="banner">考勤统计</view>
+</view>

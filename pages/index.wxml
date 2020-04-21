@@ -21,8 +21,8 @@
     <van-grid-item url="" icon="photo-o" text="巡查审核" info="99+"/>
     <van-grid-item url="/pages/index/assessment" icon="photo-o" text="考核管理" />
     <van-grid-item url="" icon="photo-o" text="事件处理" info="99+"/>
-    <van-grid-item url="" icon="photo-o" text="消息中心" info="99+"/>
-    <van-grid-item url="" icon="photo-o" text="考勤统计" />
+    <van-grid-item url="/pages/news/index" icon="photo-o" text="消息中心" info="99+"/>
+    <van-grid-item url="/pages/attendance/index" icon="photo-o" text="考勤统计" />
   </van-grid>
   <view class="title">辖区情况</view>
   <view class="pro-item">
@@ -50,7 +50,7 @@
     />
   </view>
   <view class="title">任务完成统计</view>
-  <van-cell bind:click="onCheckTime" title="选择时间段" is-link arrow-direction="down" />
+  <van-cell bind:click="onCheckTime" title="{{hasChecked}}" is-link arrow-direction="down" />
   <van-action-sheet
     show="{{ show }}"
     actions="{{ actions }}"

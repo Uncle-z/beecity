@@ -1,0 +1,12 @@
+/* pages/news/index.wxss */
+.state{
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: #1989FA;
+  color: #fff;
+  margin-left: 5px;
+  display: inline-block;
+}
+.done{
+  background-color:#07C160; 
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "网格长手机端-消息中心",
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}
