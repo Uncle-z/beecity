@@ -1,0 +1,359 @@
+<view>
+  <view class="banner">事件处理</view>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+    <van-tab title="未处理" info="5">
+      <view class="item">
+        <navigator url="detail" class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state overtime">已超时</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </navigator>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state overtime">已超时</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state dot">被督办</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state overtime">已超时</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state overtime">已超时</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="处理中" info="5">
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state doing">待反馈</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state doing">待反馈</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state going">处理中</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="state overtime">已超时</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="已处理" info="15">
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="prise">5.0</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+              <view class="name">责任部门：交警大队</view>
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="prise">4.0</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+              <view class="name">责任部门：交警大队</view>
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="ui-row" style="height: 90px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name">玉龙小区东门僵尸车问题<span class="prise">5.0</span></view>
+              <view class="name">到期时间：04-09 20:00:00</view>
+              <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+              <view class="name">责任部门：交警大队</view>
+            </view>
+          </view>
+          <view class="ui-col ui-col-align-center align-center valign-middle" style="flex: 0 0 135px;padding-right: 15px;">
+            <view class="ui-col-content align-center valign-middle">
+              <van-image
+                width="120px;"
+                height="80px"
+                fit="cover"
+                src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+              />
+            </view>
+          </view>
+        </view>
+        <view class="ui-row" style="height: 20px;">
+          <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+            <view class="ui-col-content align-left valign-middle">
+              <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+  </van-tabs>
+</view>

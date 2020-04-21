@@ -17,7 +17,9 @@
     "pages/score/grid",
     "pages/news/handle-person",
     "pages/news/handle-place",
-    "pages/news/detail"
+    "pages/news/detail",
+    "pages/enent/index",
+    "pages/enent/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

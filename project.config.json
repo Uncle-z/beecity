@@ -54,7 +54,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 11,
 			"list": [
 				{
 					"id": -1,
@@ -123,6 +123,20 @@
 					"id": -1,
 					"name": "pages/score/index",
 					"pathName": "pages/score/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/enent/index",
+					"pathName": "pages/enent/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/enent/detail",
+					"pathName": "pages/enent/detail",
 					"scene": null
 				}
 			]

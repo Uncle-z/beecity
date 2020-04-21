@@ -20,7 +20,7 @@
     <van-grid-item url="/pages/index/release" icon="photo-o" text="信息发布" />
     <van-grid-item url="" icon="photo-o" text="巡查审核" info="99+"/>
     <van-grid-item url="/pages/index/assessment" icon="photo-o" text="考核管理" />
-    <van-grid-item url="" icon="photo-o" text="事件处理" info="99+"/>
+    <van-grid-item url="/pages/enent/index" icon="photo-o" text="事件处理" info="99+"/>
     <van-grid-item url="/pages/news/index" icon="photo-o" text="消息中心" info="99+"/>
     <van-grid-item url="/pages/attendance/index" icon="photo-o" text="考勤统计" />
   </van-grid>

@@ -1,0 +1,25 @@
+/* pages/enent/index.wxss */
+.item{
+  padding: 10px 0;
+  border-bottom: 5px solid #f0f0f0;
+}
+.state{
+  padding: 2px 5px;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 5px;
+  border-radius: 3px;
+  background-color: #ccc;
+}
+.overtime{
+  background-color: #FF9900;
+}
+.doing{
+  background-color: #00CC00;
+}
+.going{
+  background-color: #0099FF;
+}
+.dot{
+  background-color: #FF0000;
+}

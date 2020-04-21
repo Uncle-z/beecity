@@ -1,0 +1,133 @@
+<view>
+  <view class="banner">事件处理</view>
+  <view class="ui-row" style="height: 40px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">事件类型：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">僵尸车问题</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 40px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">事件描述：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">玉龙小区东门发现僵尸车长期占用车位，需要处理。</view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;padding-right: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">处理前照片/视频：</view>
+        <view class="pic">
+          <van-image
+            width="120px;"
+            height="80px"
+            fit="cover"
+            src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+          />
+          <van-image
+            width="120px;"
+            height="80px"
+            fit="cover"
+            src="https://weapp-static.mifengchengshi.com/beecity/img/banner1.png"
+          />
+        </view>
+        <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号 | 2020-04-09 18:00:00</view>
+        <view class="audio"><van-button type="default" size="small"><van-icon name="volume-o"/> 15"</van-button></view>
+      </view>
+    </view>
+  </view>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+    <van-tab title="处理结果">
+      <van-cell-group>
+        <van-field
+          value="{{ message }}"
+          label="处理情况："
+          type="textarea"
+          placeholder="请输入处理情况"
+          autosize
+        />
+      </van-cell-group>
+      <van-cell title="添加语音" icon="volume" is-link />
+      <view class="ui-row" style="height: 44px;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <view class="name">上传照片/视频：</view>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding: 0 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" />
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="事件过程">
+      <view style="padding: 0 15px;">
+        <van-steps
+          steps="{{ steps }}"
+          active="{{ stepActive }}"
+          direction="vertical"
+          active-color="#ee0a24"
+        />
+      </view>
+    </van-tab>
+    <van-tab title="处理评价">
+      <view class="ui-row" style="height: 50px;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 120px;padding: 0 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            事件是否解决：
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding: 0 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <van-radio-group value="{{ radio }}" bind:change="onRadioChange">
+              <van-radio name="1" style="display: inline-block;">已解决</van-radio>
+              <van-radio name="2" style="display: inline-block;margin-left: 10px;">未解决</van-radio>
+            </van-radio-group>
+          </view>
+        </view>
+      </view>
+      <view class="ui-row" style="height: 50px;">
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 120px;padding: 0 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            评分：
+          </view>
+        </view>
+        <view class="ui-col ui-col-align-left align-left valign-middle" style="padding: 0 15px;">
+          <view class="ui-col-content align-left valign-middle">
+            <van-rate value="{{ value }}" bind:change="onChange" />
+          </view>
+        </view>
+      </view>
+      <van-cell-group>
+        <van-field
+          value="{{ message }}"
+          label="评价："
+          type="textarea"
+          placeholder="请输入处理情况"
+          autosize
+        />
+      </van-cell-group>
+    </van-tab>
+  </van-tabs>
+  <view class="ui-row" style="height: 60px;">
+    <view class="ui-col ui-col-align-center align-center valign-middle" style="padding: 0 15px;">
+      <view class="ui-col-content align-center valign-middle">
+        <view style="width: 100%;"><van-button type="info" size="small" block round>提交</van-button></view>
+      </view>
+    </view>
+  </view>
+</view>
