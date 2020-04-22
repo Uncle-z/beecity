@@ -158,6 +158,27 @@
 					"id": -1,
 					"name": "pages/patrol/personnel",
 					"pathName": "pages/patrol/personnel",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/patrol/shop-info",
+					"pathName": "pages/patrol/shop-info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/patrol/personnel-info",
+					"pathName": "pages/patrol/personnel-info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/patrol/personnel-detail",
+					"pathName": "pages/patrol/personnel-detail",
 					"scene": null
 				}
 			]

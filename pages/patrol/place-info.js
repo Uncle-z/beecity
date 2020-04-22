@@ -1,21 +1,25 @@
-// pages/patrol/place.js
+// pages/patrol/place-info.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    value: 'ceshi',
+    option1: [
+      { text: '餐饮', value: 0 },
+      { text: '超市', value: 1 },
+      { text: '药店', value: 2 },
+      { text: '美容美发', value: 3 }
+    ],
+    value1: 0,
+  },
+  onChange(event) {
+    // event.detail 为当前输入的值
+    console.log(event.detail);
+  },
+  onRadioChange(e) { },
 
-  },
-  scroll(e){
-
-  },
-  goTo(e) {
-    let url = e.currentTarget.dataset.url
-    wx.navigateTo({
-      url: '/pages/patrol/' + url,
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

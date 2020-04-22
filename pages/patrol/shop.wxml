@@ -19,7 +19,7 @@
           <view class="th">上次巡防时间</view>
           <view class="th">操作</view>
         </view>
-        <view class="tr">
+        <view class="tr" bindtap="goTo" data-url="shop-info">
           <view class="td">玉龙家园</view>
           <view class="td">A01</view>
           <view class="td">轻轻托班</view>

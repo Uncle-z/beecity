@@ -1,0 +1,161 @@
+<view>
+  <view class="banner">商厅信息</view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">所在小区：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">玉龙家园 <van-button type="info" size="mini">修改</van-button></view>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">楼（排）：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">1楼 <van-button type="info" size="mini">修改</van-button></view>
+      </view>
+    </view>
+  </view>
+  <van-cell-group>
+    <van-field
+      label="法人:"
+      value="{{ value }}"
+      placeholder="请输入法人姓名"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <van-cell-group>
+    <van-field
+      label="法人联系方式:"
+      value="{{ value }}"
+      placeholder="请输入法人联系方式"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <van-cell-group>
+    <van-field
+      label="员工人数："
+      value="{{ value }}"
+      placeholder="请输入员工人数"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">经营类别：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 50px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 120px;padding: 0 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        是否有人员居住：
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="padding: 0 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <van-radio-group value="{{ radio }}" bind:change="onRadioChange">
+          <van-radio name="1" style="display: inline-block;">有</van-radio>
+          <van-radio name="2" style="display: inline-block;margin-left: 10px;">无</van-radio>
+        </van-radio-group>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 30px;margin-bottom: 15px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name"><van-icon name="location" />赤峰市松山区玉龙大街66号</view>
+      </view>
+    </view>
+  </view>
+  <view class="table-view" style="width: 640px;">
+    <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      <view class="table">
+        <view class="tr">
+          <view class="th">身份</view>
+          <view class="th">姓名</view>
+          <view class="th">与户主关系</view>
+          <view class="th">联系电话</view>
+          <view class="th">最新时间</view>
+          <view class="th">操作</view>
+        </view>
+        <view class="tr" bindtap="goTo" data-url="shop-info">
+          <view class="td">业主</view>
+          <view class="td">哈哈</view>
+          <view class="td">祖父母或外祖父母</view>
+          <view class="td">1367110****</view>
+          <view class="td">2014-02-01 15:01:01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr" bindtap="goTo" data-url="shop-info">
+          <view class="td">业主</view>
+          <view class="td">哈哈</view>
+          <view class="td">祖父母或外祖父母</view>
+          <view class="td">1367110****</view>
+          <view class="td">2014-02-01 15:01:01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr" bindtap="goTo" data-url="shop-info">
+          <view class="td">业主</view>
+          <view class="td">哈哈</view>
+          <view class="td">祖父母或外祖父母</view>
+          <view class="td">1367110****</view>
+          <view class="td">2014-02-01 15:01:01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr" bindtap="goTo" data-url="shop-info">
+          <view class="td">业主</view>
+          <view class="td">哈哈</view>
+          <view class="td">祖父母或外祖父母</view>
+          <view class="td">1367110****</view>
+          <view class="td">2014-02-01 15:01:01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr" bindtap="goTo" data-url="shop-info">
+          <view class="td">业主</view>
+          <view class="td">哈哈</view>
+          <view class="td">祖父母或外祖父母</view>
+          <view class="td">1367110****</view>
+          <view class="td">2014-02-01 15:01:01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+        <view class="tr" bindtap="goTo" data-url="shop-info">
+          <view class="td">业主</view>
+          <view class="td">哈哈</view>
+          <view class="td">祖父母或外祖父母</view>
+          <view class="td">1367110****</view>
+          <view class="td">2014-02-01 15:01:01</view>
+          <view class="td"><van-button type="info">详情</van-button></view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="ui-row" style="height: 80px;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <van-button type="info" size="small">审核通过</van-button>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <van-button type="warning" size="small">审核不通过</van-button>
+      </view>
+    </view>
+  </view>
+</view>

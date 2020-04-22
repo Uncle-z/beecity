@@ -1,0 +1,197 @@
+<view>
+  <view class="banner">人员走访</view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">华府尚城小区</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">1楼-2单元-18层-0001号</view>
+      </view>
+    </view>
+  </view>
+  <van-cell-group>
+    <van-field
+      label="姓名:"
+      value="{{ value }}"
+      placeholder="请输入姓名"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <van-cell-group>
+    <van-field
+      label="联系电话:"
+      value="{{ value }}"
+      placeholder="请输入联系电话"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <van-cell-group>
+    <van-field
+      label="身份证号码："
+      value="{{ value }}"
+      placeholder="请输入身份证号码"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">民族：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">性别：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">身份：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">居住性质：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">文化程度：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">政治面貌：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <van-cell-group>
+    <van-field
+      label="户籍地："
+      value="{{ value }}"
+      placeholder="请输入户籍地"
+      bind:change="onChange"
+    />
+  </van-cell-group>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">与户主关系：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">婚姻状况：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+        </van-dropdown-menu>
+      </view>
+    </view>
+  </view>
+  <view class="ui-row" style="height: 44px;">
+    <view class="ui-col ui-col-align-left align-left valign-middle" style="flex: 0 0 95px;padding-left: 15px;">
+      <view class="ui-col-content align-left valign-middle">
+        <view class="name">初婚日期：</view>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-left align-left valign-middle">
+      <view class="ui-col-content align-left valign-middle">
+        <van-cell title="选择时间" is-link bind:click="showPopup" />
+      </view>
+    </view>
+  </view>
+  <van-popup
+    show="{{ show }}"
+    position="bottom"
+    custom-style="height: 300;"
+    bind:close="onClose"
+  >
+    <van-datetime-picker
+      type="date"
+      value="{{ currentDate }}"
+      bind:input="onInput"
+      min-date="{{ minDate }}"
+      formatter="{{ formatter }}"
+    />
+  </van-popup>
+  <view class="ui-row" style="height: 80px;">
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <van-button type="info" size="small">审核通过</van-button>
+      </view>
+    </view>
+    <view class="ui-col ui-col-align-center align-center valign-middle">
+      <view class="ui-col-content align-center valign-middle">
+        <van-button type="warning" size="small">审核不通过</van-button>
+      </view>
+    </view>
+  </view>
+</view>

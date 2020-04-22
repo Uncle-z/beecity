@@ -23,7 +23,11 @@
     "pages/patrol/index",
     "pages/patrol/personnel",
     "pages/patrol/shop",
-    "pages/patrol/place"
+    "pages/patrol/place",
+    "pages/patrol/shop-info",
+    "pages/patrol/place-info",
+    "pages/patrol/personnel-info",
+    "pages/patrol/personnel-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

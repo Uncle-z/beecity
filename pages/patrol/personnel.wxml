@@ -25,7 +25,7 @@
           <view class="th">上次巡防时间</view>
           <view class="th">操作</view>
         </view>
-        <view class="tr">
+        <view class="tr" bindtap="goTo" data-url="personnel-info">
           <view class="td">1</view>
           <view class="td">1</view>
           <view class="td">11</view>
@@ -35,7 +35,7 @@
           <view class="td">2014-02-01</view>
           <view class="td"><van-button type="info">详情</van-button></view>
         </view>
-        <view class="tr">
+        <view class="tr" bindtap="goTo" data-url="personnel-detail">
           <view class="td">1</view>
           <view class="td">1</view>
           <view class="td">11</view>

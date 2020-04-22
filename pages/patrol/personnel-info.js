@@ -1,21 +1,24 @@
-// pages/patrol/place.js
+// pages/patrol/personnel-info.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    value: 'ceshi',
+    option1: [
+      { text: '普通住宅', value: 0 },
+      { text: '公寓', value: 1 },
+      { text: '公司', value: 2 }
+    ],
+    value1: 0,
+  },
+  onChange(event) {
+    // event.detail 为当前输入的值
+    console.log(event.detail);
+  },
+  onRadioChange(e) {},
 
-  },
-  scroll(e){
-
-  },
-  goTo(e) {
-    let url = e.currentTarget.dataset.url
-    wx.navigateTo({
-      url: '/pages/patrol/' + url,
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
